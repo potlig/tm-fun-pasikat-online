@@ -1,0 +1,1 @@
+start "tm-game" cmd /k yarn start

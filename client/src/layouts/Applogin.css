@@ -1,0 +1,79 @@
+ 
+@font-face {
+  font-family: 'zing';
+  src: url('../assets/fonts/ZingRustDemo-Base.otf') format('opentype');
+  /* You can specify multiple formats for better browser compatibility */
+}
+
+
+
+.waiting, .ready
+{
+text-align: center;
+    padding-top: 65%;
+ color: yellow;
+zoom: 70%;
+}
+
+.catval 
+{
+text-align: center;
+     
+ color: yellow;
+zoom: 100%;
+}
+.container, .container-fluid
+{
+ 
+ min-height: 100vh;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background-size: cover;
+    max-width: unset !important;
+
+}
+
+.navbar  .container-fluid
+{
+min-height: 0 !important;
+}
+
+.form-control {
+    
+    border-radius: 10px !important;
+    border: solid yellow 2px !important;
+}
+
+.btn-primary {
+    border-color: #132d8e;
+    color: yellow;
+    background-color: #132d8e;
+    border: navajowhite;
+    opacity: 100%;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: system-ui;
+    font-family: 'zing', sans-serif;
+    font-weight: 600;
+    border-radius: 10px !important;
+}
+.redbtn {
+    border-color: red !important;
+    color: white !important;
+    background-color: red !important;
+    border: navajowhite;
+    opacity: 100%;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: system-ui;
+    font-family: 'zing', sans-serif;
+    font-weight: 600;
+
+      border-radius: 10px !important;
+}
+
+h1, h2, h3, h4, h5, p, b, span, div
+{
+ font-family: 'zing', sans-serif;
+}
